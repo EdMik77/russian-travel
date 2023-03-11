@@ -1,0 +1,10 @@
+.header__links {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 18px;
+  padding: 18px 0 0;
+  margin: 0;
+  font-size: 24px;
+  line-height: calc(28 / 24 * 100%);
+  list-style-type: none;
+}

@@ -1,0 +1,9 @@
+.intro__list {
+  max-width: 690px;
+  padding: 33px 0 0;
+  margin: 0;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: calc(18 / 12 * 100%);
+  list-style-type: none;
+}
