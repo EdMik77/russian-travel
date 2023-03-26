@@ -1,0 +1,17 @@
+.footer__links {
+  display: flex;
+  column-gap: 18px;
+  max-width: 465px;
+  font-size: 16px;
+  line-height: calc(18 / 16 * 100%);
+}
+
+@media (max-width: 767px) {
+  .footer__links {
+    flex-direction: column;
+    row-gap: 32px;
+    max-width: 186px;
+    font-size: 24px;
+    line-height: 100%;
+  }
+}

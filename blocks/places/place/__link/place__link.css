@@ -1,0 +1,24 @@
+.place__link {
+  grid-row: 1;
+  grid-column: 2;
+  align-self: end;
+  padding-top: 12px;
+  margin: 0;
+  font-size: 18px;
+  line-height: calc(22 / 18 * 100%);
+  color: inherit;
+  transition: opacity .3s ease;
+}
+
+.place__link:hover {
+  opacity: .8;
+}
+
+@media (max-width: 767px) {
+  .place__link {
+    align-self: baseline;
+    padding-top: 0;
+    padding-bottom: 32px;
+    padding-left: 16px;
+  }
+}

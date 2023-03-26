@@ -7,3 +7,15 @@
   line-height: calc(18 / 12 * 100%);
   list-style-type: none;
 }
+
+@media (max-width: 1023px) {
+  .intro__list {
+    max-width: 720px;
+  }
+}
+
+@media (max-width: 767px) {
+  .intro__list {
+    max-width: 288px;
+  }
+}
