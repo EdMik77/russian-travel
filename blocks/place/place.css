@@ -3,19 +3,12 @@
   grid-template: auto / minmax(460px, 1fr);
   row-gap: 48px;
   column-gap: 40px;
-  padding: 0 100px 80px;
-}
-
-.place:last-child {
-  padding-bottom: 0;
 }
 
 @media (max-width: 1279px) {
   .place {
     grid-template-columns: minmax(440px, 1fr);
     column-gap: 32px;
-    padding-right: 48px;
-    padding-left: 48px;
   }
 }
 
@@ -23,9 +16,6 @@
   .place {
     grid-template-columns: minmax(340px, 1fr);
     column-gap: 28px;
-    padding-right: 24px;
-    padding-bottom: 73px;
-    padding-left: 24px;
   }
 }
 
@@ -33,9 +23,7 @@
   .place {
     display: flex;
     flex-direction: column;
-    row-gap: 0px;
-    padding-right: 0px;
-    padding-bottom: 50px;
-    padding-left: 0px;
+    row-gap: 0;
+    column-gap: 0;
   }
 }

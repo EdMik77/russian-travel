@@ -5,9 +5,20 @@
   line-height: calc(29 / 18 * 100%);
 }
 
+.place__paragraph:last-child {
+  padding: 0;
+}
+
 @media (max-width: 1023px) {
   .place__paragraph {
     font-size: 16px;
     line-height: calc(26 / 16 * 100%);
+  }
+}
+
+@media (max-width: 767px) {
+  .place__paragraph {
+    padding: 0 0 25px;
+    line-height: 26.08px;
   }
 }

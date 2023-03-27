@@ -22,7 +22,7 @@
 @media (max-width: 767px) {
   .intro {
     max-width: calc(288px + (432 + 432 * .7) * (100vw - 320px) / 767);
-    margin-top: 60px;
+    margin-top: 64px;
     margin-right: 16px;
     margin-left: 16px;
   }
